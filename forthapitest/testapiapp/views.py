@@ -26,3 +26,5 @@ def feedbackview(request):
     return render(request,'feedbackapp/feedback.html',{'form':form})
 
 #this is just for fun thats it.
+
+# this is not good on live project.
