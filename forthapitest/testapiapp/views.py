@@ -24,3 +24,5 @@ def feedbackview(request):
             print('student feedback :', form.cleaned_data['feedback'])
             return thanks(request)
     return render(request,'feedbackapp/feedback.html',{'form':form})
+
+#this is just for fun thats it.
